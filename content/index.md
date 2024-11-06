@@ -1,53 +1,57 @@
 ---
 layout: Home
 seo:
-  title: Web Developer
+  title: Full Stack Developer
   description: Custom description for this page goes here
 ---
 
+
+
 ---main
 images:
-  - src: /hero.jpg
-    alt: my photo
-  - src: /hero-mobile.jpg
-    alt: my photo
+  - src: /avatar.png
+    alt: arun verma photo
+  - src: /avatar-mobile.png
+    alt: arun verma photo
 ---
 
-# <Typewriter>Carl Hanson</Typewriter>
+# <Typewriter>Arun Verma</Typewriter>
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+# *Senior Full Stack Developer*
 
-<Sep size={12} />
-
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle, shall to the press or to the
-sponge.
+```js {2-4} showLineNumbers
+const services = [
+  'Web & Mobile App Development'
+  'API Integration & Data Solutions'
+  'Mobile App Development'
+  'Web Scrapping'
+]
+if (have_a_project) navigate('/get-in-touch')
+```
 
 
 
 ---achievements
-- number: 6+
+- number: 7+
   text: Years of experience
-- number: 60+
+- number: 10+
+  text: Programming Languages Mastered  
+- number: 30+
   text: Projects Completed
-- number: 5
-  text: OpenSource Libraries
+- number: 100%
+  text: Job Success Rate
 ---
 
 
 
 ---cta
 ---
-<Button href="/contact" size="lg">
-  Download Resume
-</Button>
+[Get in Touch](https://www.upwork.com/freelancers/arundevops)
 
 
 
 ---companies
-title: Trusted By
+title:
 list:
   - name: Company 1
     icon:

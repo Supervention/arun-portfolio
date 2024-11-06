@@ -19,7 +19,7 @@ const ProjectCardHorizontal = ({
     href={slug.join('/')}
     aria-label={title}
     className={classNames(
-      'group grid items-center transition-all duration-200 md:grid-cols-2 md:gap-10',
+      'group grid items-center border border-omega-700 transition-all duration-200 md:grid-cols-2 md:gap-10',
       'dark:bg-gradient-omega-900 prose prose-zinc bg-white dark:prose-invert dark:md:shadow-lg'
     )}
   >

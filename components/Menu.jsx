@@ -27,11 +27,6 @@ const MenuItem = ({ name, Icon, text, slug, number, isOpen, toggleMenu, ...rest 
     >
       {name}
     </div>
-    {number && (
-      <div className="absolute bottom-2 right-2 hidden h-4 w-4 text-center font-mono text-xs font-bold md:block">
-        {number}
-      </div>
-    )}
     <span className="absolute top-0 right-0 hidden h-full w-1 bg-white/25 opacity-0 transition-opacity group-hover:opacity-100 md:block" />
     {Icon && <Icon className="relative z-20 h-6 w-6" />}
     {text && <div className="relative z-20 h-6 text-lg font-extrabold">{text}</div>}
@@ -73,7 +68,7 @@ const Menu = () => {
         className={classNames(
           'bg-gradient-omega-900 shrink-0 flex-col items-center justify-between md:flex',
           'fixed left-0 top-full z-40 w-full md:w-16',
-          'md:sticky md:top-20 md:h-[calc(100vh-theme(space.40))]',
+          'md:sticky md:top-8 md:h-[calc(100vh-30rem)]',
           'transition-transform md:translate-y-0',
           isOpen ? '-translate-y-full' : '-translate-y-16'
         )}
@@ -100,13 +95,13 @@ const Menu = () => {
           </div>
         )}
 
-        {social && (
+        {/* {social && (
           <div className="flex w-full flex-wrap bg-accent md:block md:bg-omega-800">
             {social.map((item, i) => (
               <SocialLink key={`${i}-social`} {...item} />
             ))}
           </div>
-        )}
+        )} */}
       </div>
     </>
   )

@@ -19,7 +19,7 @@ const Layout = ({ pagination, collection, slug, content, categories }) => {
   return (
     <div className="mx-auto w-full">
       <div className="prose prose-headings:mb-4 dark:prose-invert">
-        {categories && (
+        {/* {categories && (
           <>
             <div className="grid-cols-2 bg-omega-800 md:grid">
               <div className="p-3 md:p-6 lg:p-12">
@@ -39,7 +39,7 @@ const Layout = ({ pagination, collection, slug, content, categories }) => {
             </div>
             <Sep line className="" />
           </>
-        )}
+        )} */}
         <div className="p-4 md:p-6 lg:p-12">
           <div className="flex items-start justify-between">
             <div>

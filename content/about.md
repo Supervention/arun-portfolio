@@ -2,49 +2,26 @@
 layout: About
 seo:
   title: About Me
-  description: Custom description for this page goes here
+  description: About Arun Verma
 ---
-
-
 
 ---personal_info
-name: CARL HANSON
-images:
-  - src: /about.jpg
-    alt: my image
 ---
-##### <span>01.</span> About me
 
-Lorem consequat reprehenderit ipsum nulla qui pariatur tempor officia ad. Excepteur excepteur pariatur ad laborum labore reprehenderit. Do eiusmod sit pariatur nisi. Quis non dolor amet magna eu adipisicing est ex.
+##### About me
 
-##### <span>02.</span> Interests and Hobbies
+Full Stack Developer with a proven track record spanning 7+ years, demonstrating mastery in backend (Node.js, Nest.js, Python/Django, PHP/Laravel), frontend (React.js, Next.js, Vue.js, Angular), and mobile app technologies (Flutter, React Native).
 
-Ad Lorem et amet exercitation enim culpa nulla laboris eu eiusmod. Irure fugiat sunt esse consequat consectetur eu laboris voluptate eiusmod dolor. Nisi velit consectetur deserunt esse aliquip esse officia consequat eiusmod voluptate cupidatat id.
-
-##### <span>03.</span> Framework Preferences
-
-Ullamco cillum pariatur qui eu. Aliqua quis in adipisicing nulla do. Reprehenderit cupidatat eiusmod cupidatat ut ipsum pariatur Lorem incididunt. Veniam sunt reprehenderit consectetur ullamco laborum magna sit aliquip minim esse.
+##### Skills
 
 
-
----cta
----
-## Ready to discuss your project?
-
-Let's super-charge your business today!
-
-<Button href="/contact">
-  Get a Free Price Quote
-</Button>
-
-
-
----skills_header
+---page_header
 title: I'm Specialized in
 list:
-  - Front-End Design
   - Back-End Development
-  - Modern Frameworks
+  - Front-End Development
+  - Mobile App Development
+  - Web Scrapping
 ---
 
 
@@ -53,25 +30,33 @@ list:
 title: Back-End Development
 list:
   - title: Node.js
-    level: 1
-    icon:
-      src: /icons/nodedotjs.svg
-  - title: Prisma
-    level: 3
-    icon:
-      src: /icons/prisma.svg
-  - title: Svelte
-    level: 4
-    icon:
-      src: /icons/svelte.svg
-  - title: HTML5
     level: 5
     icon:
-      src: /icons/html5.svg
-  - title: Solidity
-    level: 2
+      src: /icons/nodedotjs.svg
+  - title: Nest.js
+    level: 5
     icon:
-      src: /icons/solidity.svg
+      src: /icons/nodedotjs.svg
+  - title: PHP
+    level: 5
+    icon:
+      src: /icons/nodedotjs.svg      
+  - title: Laravel
+    level: 5
+    icon:
+      src: /icons/nodedotjs.svg
+  - title: Python
+    level: 5
+    icon:
+      src: /icons/nodedotjs.svg
+  - title: Django
+    level: 5
+    icon:
+      src: /icons/nodedotjs.svg
+  - title: Flask
+    level: 5
+    icon:
+      src: /icons/nodedotjs.svg
 ---
 
 
@@ -80,48 +65,121 @@ list:
 ########################################
 ### Skills
 ########################################
-title: Front-End UI/UX Design
+title: Front-End Development
 list:
-  - title: JavaScript
-    level: 4
-    icon:
-      src: /icons/javascript.svg
-  - title: React
-    level: 3
-    icon:
-      src: /icons/react.svg
-  - title: Redux
-    level: 4
-    icon:
-      src: /icons/redux.svg
-  - title: GraphQL
-    level: 2
-    icon:
-      src: /icons/graphql.svg
-  - title: Node.js
-    level: 4
-    icon:
-      src: /icons/nodedotjs.svg
-  - title: Prisma
+  - title: HTML5
     level: 5
     icon:
-      src: /icons/prisma.svg
+      src: /icons/html5.svg
+  - title: JavaScript
+    level: 5
+    icon:
+      src: /icons/javascript.svg
+  - title: TypeScript
+    level: 5
+    icon:
+      src: /icons/javascript.svg      
+  - title: React
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Next.js
+    level: 5
+    icon:
+      src: /icons/react.svg      
+  - title: Vue.js
+    level: 5
+    icon:
+      src: /icons/redux.svg
+  - title: Angular
+    level: 4
+    icon:
+      src: /icons/react.svg
 ---
 
+---skills[2]
+########################################
+### Skills
+########################################
+title: Mobile App Development
+list:
+  - title: Flutter
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: React Native
+    level: 4
+    icon:
+      src: /icons/react.svg
+  - title: Ionic
+    level: 4
+    icon:
+      src: /icons/react.svg      
+---
 
+---skills[3]
+########################################
+### Skills
+########################################
+title: Database
+list:
+  - title: MySQL
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: PostgreSQL
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: MongoDB
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Prisma
+    level: 4
+    icon:
+      src: /icons/prisma.svg      
+  - title: GraphQL
+    level: 4
+    icon:
+      src: /icons/graphql.svg
+---
+
+---skills[4]
+########################################
+### Skills
+########################################
+title: AI/ML
+list:
+  - title: ChatGPT API
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: FineTune Model
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Embedding
+    level: 5
+    icon:
+      src: /icons/react.svg
+---
 
 ---history[0]
 title: Employment
 list:
-  - name: MetaVerse Inc.
-    description: Web3 Developer
-    date: 2020-Present
-  - name: Vircil Intl Co..
-    description: Back-End Developer and Designer
-    date: 2018-2020
-  - name: Crowdcube Inc.
-    description: Technical Support
-    date: 2018-2015
+  - name: Flyingspark Infotech Pvt Ltd
+    description: Senior Full Stack Developer
+    date: Jan 2021 - March 2023
+  - name: Scorpio Information Technologies Pvt Ltd
+    description: Full Stack Developer
+    date: July 2020 - Dec 2020
+  - name: Xornor Technologies Pvt Ltd
+    description: Web Developer
+    date: Sep 2017 - May 2020
+  - name: Iserver Admin Pvt Ltd
+    description: Web Developer
+    date: Apr 2017 - Sep 2017
 ---
 
 
@@ -129,13 +187,10 @@ list:
 ---history[1]
 title: Education
 list:
-  - name: Stanford university
-    description: MSc (Computer Science)
-    date: 2006-2010
-  - name: University of Los Angeles
-    description: MSc (Human Computer Interaction)
-    date: 2010-2014
-  - name: Berkeley University
-    description: MSc (Information Technology)
-    date: 2015-2019
+  - name: J.C. Bose University
+    description: B.Tech (Electronics Intrumentation)
+    date: 2010-2013
+  - name: BITS College
+    description: Diploma (Electronics & Communication)
+    date: 2006-2009
 ---

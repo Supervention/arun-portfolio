@@ -1,7 +1,7 @@
 ---
 layout: Blog
 seo:
-  title: My Blog
+  title: Arun's Blog
   description: Custom description for this page goes here
 collection:
   path: /blog
@@ -13,7 +13,6 @@ collection:
 ### Latest Articles
 
 A few handcrafted articles about my thoughts and experiments.
-
 
 
 ---categories

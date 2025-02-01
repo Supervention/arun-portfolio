@@ -2,7 +2,7 @@
 layout: Home
 seo:
   title: Full Stack Developer
-  description: Custom description for this page goes here
+  description: Full Stack developer with 7+ Year experience
 ---
 
 
@@ -23,13 +23,8 @@ images:
 const services = [
   'Website Development'
   'Mobile App Development'
-  'API Integration'
-  'Payment Gateway Integration',
-  'Cloud Deployment & DevOps Services',
-  'ChatGPT Integration',
-  'Real-Time Application Development',
-  'AI-Enhanced Chatbot Development',
-  'Web Scrapping',
+  'Cloud Deployment & DevOps Services'
+  'AI/ML',
 ]
 if (have_a_project) navigate('/get-in-touch')
 ```
@@ -38,7 +33,7 @@ if (have_a_project) navigate('/get-in-touch')
 
 ---achievements
 - number: 100%
-  text: Job Success Rate
+  text: Job Success Rate on Upwork
 - number: 7+
   text: Years of experience
 - number: 10+

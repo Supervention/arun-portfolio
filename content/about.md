@@ -21,42 +21,42 @@ list:
   - Back-End Development
   - Front-End Development
   - Mobile App Development
-  - Web Scrapping
+  - AI/ML
 ---
 
 
 
 ---skills[0]
-title: Back-End Development
+title: Back-End Skills
 list:
   - title: Node.js
     level: 5
     icon:
-      src: /icons/nodedotjs.svg
+      src: /icons/nodejs.svg
   - title: Nest.js
     level: 5
     icon:
-      src: /icons/nodedotjs.svg
+      src: /icons/nestjs.svg
   - title: PHP
     level: 5
     icon:
-      src: /icons/nodedotjs.svg      
+      src: /icons/php.svg      
   - title: Laravel
     level: 5
     icon:
-      src: /icons/nodedotjs.svg
+      src: /icons/laravel.svg
   - title: Python
     level: 5
     icon:
-      src: /icons/nodedotjs.svg
+      src: /icons/python.svg
   - title: Django
     level: 5
     icon:
-      src: /icons/nodedotjs.svg
+      src: /icons/django.svg
   - title: Flask
     level: 5
     icon:
-      src: /icons/nodedotjs.svg
+      src: /icons/flask-2.svg
 ---
 
 
@@ -65,29 +65,28 @@ list:
 ########################################
 ### Skills
 ########################################
-title: Front-End Development
+title: Front-End Skills
 list:
   - title: HTML5
     level: 5
     icon:
-      src: /icons/html5.svg
+      src: /icons/html.svg
   - title: CSS
     level: 5
     icon:
-      src: /icons/html5.svg
+      src: /icons/css.svg
   - title: Bootstrap
     level: 5
     icon:
-      src: /icons/html5.svg
-  - title: TailwindCSS
+      src: /icons/bootstrap.svg
   - title: Material UI
     level: 5
     icon:
-      src: /icons/html5.svg
+      src: /icons/material-ui.svg
   - title: TailwindCSS  
     level: 5
     icon:
-      src: /icons/html5.svg              
+      src: /icons/tailwindcss.svg              
   - title: React
     level: 5
     icon:
@@ -95,15 +94,15 @@ list:
   - title: Next.js
     level: 5
     icon:
-      src: /icons/react.svg      
+      src: /icons/nextjs.svg      
   - title: Vue.js
     level: 5
     icon:
-      src: /icons/redux.svg
+      src: /icons/vue.svg
   - title: Angular
     level: 4
     icon:
-      src: /icons/react.svg
+      src: /icons/angular.svg
   - title: JavaScript
     level: 5
     icon:
@@ -111,27 +110,27 @@ list:
   - title: TypeScript
     level: 5
     icon:
-      src: /icons/javascript.svg         
+      src: /icons/typescript.svg         
 ---
 
 ---skills[2]
 ########################################
 ### Skills
 ########################################
-title: Mobile App Development
+title: Mobile App Skills
 list:
   - title: Flutter
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/flutter.svg
   - title: React Native
-    level: 5
+    level: 4
     icon:
       src: /icons/react.svg
   - title: Swift
     level: 4
     icon:
-      src: /icons/react.svg      
+      src: /icons/swift.svg      
 ---
 
 ---skills[3]
@@ -143,19 +142,19 @@ list:
   - title: MySQL
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/mysql.svg
   - title: PostgreSQL
     level: 5
     icon:
-      src: /icons/react.svg    
+      src: /icons/postgresql.svg    
   - title: Microsoft SQL Server
     level: 4
     icon:
-      src: /icons/graphql.svg
+      src: /icons/microsoft-sql-server.svg
   - title: MongoDB
     level: 5
     icon:
-      src: /icons/react.svg      
+      src: /icons/mongodb.svg      
 ---
 
 ---skills[4]
@@ -167,23 +166,23 @@ list:
   - title: TensorFlow
     level: 4
     icon:
-      src: /icons/react.svg
+      src: /icons/tensorflow.svg
   - title: PyTorch
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/pytorch.svg
   - title: Keras
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/keras.svg
   - title: Scikit-Learn
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/scikit-learn.svg
   - title: Hugging Face
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/hugging-face.svg
 ---
 
 ---skills[5]
@@ -195,39 +194,35 @@ list:
   - title: Text Generation
     level: 5
     icon:
-      src: /icons/react.svg    
+      src: /icons/chatgpt.svg
   - title: Image Generation
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/chatgpt.svg
   - title: Audio Generation
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/chatgpt.svg
   - title: Text to speech
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/chatgpt.svg
   - title: Speech to text
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/chatgpt.svg
   - title: Realtime API
     level: 5
     icon:
-      src: /icons/react.svg      
+      src: /icons/chatgpt.svg
   - title: FineTune Model
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/chatgpt.svg
   - title: Embedding
     level: 5
     icon:
-      src: /icons/react.svg
-  - title: VectorDB (ChromaDB, Pinecone)
-    level: 5
-    icon:
-      src: /icons/react.svg      
+      src: /icons/chatgpt.svg
 ---
 
 ---skills[4]
@@ -237,29 +232,29 @@ list:
 title: Cloud/DevOps
 list:
   - title: AWS
-    level: 4
+    level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/aws.svg
   - title: Firebase
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/firebase.svg
   - title: Microsoft Azure
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/azure.svg
   - title: DigitalOcean
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/digitalocean.svg
   - title: Docker
     level: 5
     icon:
-      src: /icons/react.svg
+      src: /icons/docker.svg
   - title: Kubernetes
     level: 4
     icon:
-      src: /icons/react.svg      
+      src: /icons/kubernetes.svg      
 ---
 
 ---history[0]
@@ -287,7 +282,4 @@ list:
   - name: J.C. Bose University
     description: B.Tech (Electronics Engineering)
     date: 2010-2013
-  - name: BITS College
-    description: Diploma (Electronics Engineering)
-    date: 2006-2009
 ---

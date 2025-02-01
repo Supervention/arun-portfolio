@@ -9,6 +9,7 @@
 import { IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
 import { TfiHome, TfiPencilAlt } from 'react-icons/tfi'
 import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
+import { IoMdContacts } from 'react-icons/io'
 
 /**
  * Main Menu Items
@@ -44,7 +45,7 @@ export const menu = [
   {
     name: 'Contact',
     slug: '/contact',
-    Icon: SlEnvolope,
+    Icon: IoMdContacts,
   },
 ]
 

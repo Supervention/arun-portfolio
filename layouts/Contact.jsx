@@ -82,11 +82,11 @@ const Contact01 = ({ main = {} }) => {
       <div className="prose prose-invert items-start lg:flex">
         <Reveal
           animation="fade-in slide-in-right"
-          className="prose prose-invert basis-1/3 lg:mr-14"
+          className="prose prose-invert text-center lg:mr-14"
         >
           <ContentRenderer source={main} />
         </Reveal>
-        <Reveal
+        {/* <Reveal
           animation="fade-in zoom-in"
           className="md:with-back-plate max-w-3xl border border-omega-700 md:before:bg-omega-700"
         >
@@ -133,7 +133,7 @@ const Contact01 = ({ main = {} }) => {
               </div>
             </form>
           </FormProvider>
-        </Reveal>
+        </Reveal> */}
       </div>
     </div>
   )

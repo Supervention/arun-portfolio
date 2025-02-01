@@ -21,10 +21,15 @@ images:
 
 ```js {2-4} showLineNumbers
 const services = [
-  'Web & Mobile App Development'
-  'API Integration & Data Solutions'
+  'Website Development'
   'Mobile App Development'
-  'Web Scrapping'
+  'API Integration'
+  'Payment Gateway Integration',
+  'Cloud Deployment & DevOps Services',
+  'ChatGPT Integration',
+  'Real-Time Application Development',
+  'AI-Enhanced Chatbot Development',
+  'Web Scrapping',
 ]
 if (have_a_project) navigate('/get-in-touch')
 ```
@@ -32,14 +37,14 @@ if (have_a_project) navigate('/get-in-touch')
 
 
 ---achievements
+- number: 100%
+  text: Job Success Rate
 - number: 7+
   text: Years of experience
 - number: 10+
   text: Programming Languages Mastered  
 - number: 30+
   text: Projects Completed
-- number: 100%
-  text: Job Success Rate
 ---
 
 

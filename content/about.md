@@ -10,7 +10,7 @@ seo:
 
 ##### About me
 
-Full Stack Developer with a proven track record spanning 7+ years, demonstrating mastery in backend (Node.js, Nest.js, Python/Django, PHP/Laravel), frontend (React.js, Next.js, Vue.js, Angular), and mobile app technologies (Flutter, React Native).
+I specialize in developing scalable, high-performance applications tailored to business needs. From full-stack web development to AI-driven automation and custom e-commerce solutions, I bring expertise and innovation to every project.
 
 ##### Skills
 
@@ -71,14 +71,23 @@ list:
     level: 5
     icon:
       src: /icons/html5.svg
-  - title: JavaScript
+  - title: CSS
     level: 5
     icon:
-      src: /icons/javascript.svg
-  - title: TypeScript
+      src: /icons/html5.svg
+  - title: Bootstrap
     level: 5
     icon:
-      src: /icons/javascript.svg      
+      src: /icons/html5.svg
+  - title: TailwindCSS
+  - title: Material UI
+    level: 5
+    icon:
+      src: /icons/html5.svg
+  - title: TailwindCSS  
+    level: 5
+    icon:
+      src: /icons/html5.svg              
   - title: React
     level: 5
     icon:
@@ -95,6 +104,14 @@ list:
     level: 4
     icon:
       src: /icons/react.svg
+  - title: JavaScript
+    level: 5
+    icon:
+      src: /icons/javascript.svg
+  - title: TypeScript
+    level: 5
+    icon:
+      src: /icons/javascript.svg         
 ---
 
 ---skills[2]
@@ -108,10 +125,10 @@ list:
     icon:
       src: /icons/react.svg
   - title: React Native
-    level: 4
+    level: 5
     icon:
       src: /icons/react.svg
-  - title: Ionic
+  - title: Swift
     level: 4
     icon:
       src: /icons/react.svg      
@@ -130,19 +147,15 @@ list:
   - title: PostgreSQL
     level: 5
     icon:
-      src: /icons/react.svg
-  - title: MongoDB
-    level: 5
-    icon:
-      src: /icons/react.svg
-  - title: Prisma
-    level: 4
-    icon:
-      src: /icons/prisma.svg      
-  - title: GraphQL
+      src: /icons/react.svg    
+  - title: Microsoft SQL Server
     level: 4
     icon:
       src: /icons/graphql.svg
+  - title: MongoDB
+    level: 5
+    icon:
+      src: /icons/react.svg      
 ---
 
 ---skills[4]
@@ -151,10 +164,58 @@ list:
 ########################################
 title: AI/ML
 list:
-  - title: ChatGPT API
+  - title: TensorFlow
+    level: 4
+    icon:
+      src: /icons/react.svg
+  - title: PyTorch
     level: 5
     icon:
       src: /icons/react.svg
+  - title: Keras
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Scikit-Learn
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Hugging Face
+    level: 5
+    icon:
+      src: /icons/react.svg
+---
+
+---skills[5]
+########################################
+### Skills
+########################################
+title: OpenAI/ChatGPT
+list:
+  - title: Text Generation
+    level: 5
+    icon:
+      src: /icons/react.svg    
+  - title: Image Generation
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Audio Generation
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Text to speech
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Speech to text
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Realtime API
+    level: 5
+    icon:
+      src: /icons/react.svg      
   - title: FineTune Model
     level: 5
     icon:
@@ -163,6 +224,42 @@ list:
     level: 5
     icon:
       src: /icons/react.svg
+  - title: VectorDB (ChromaDB, Pinecone)
+    level: 5
+    icon:
+      src: /icons/react.svg      
+---
+
+---skills[4]
+########################################
+### Skills
+########################################
+title: Cloud/DevOps
+list:
+  - title: AWS
+    level: 4
+    icon:
+      src: /icons/react.svg
+  - title: Firebase
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Microsoft Azure
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: DigitalOcean
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Docker
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Kubernetes
+    level: 4
+    icon:
+      src: /icons/react.svg      
 ---
 
 ---history[0]
@@ -188,9 +285,9 @@ list:
 title: Education
 list:
   - name: J.C. Bose University
-    description: B.Tech (Electronics Intrumentation)
+    description: B.Tech (Electronics Engineering)
     date: 2010-2013
   - name: BITS College
-    description: Diploma (Electronics & Communication)
+    description: Diploma (Electronics Engineering)
     date: 2006-2009
 ---

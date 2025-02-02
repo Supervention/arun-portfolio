@@ -65,7 +65,7 @@ icon:
 ---
 
 <small>
-Experience streamlined cloud deployment and efficient DevOps practices to accelerate your digital transformation.
+Experience streamline cloud deployment and DevOps for faster digital transformation.
 
 **Optimized Infrastructure Automation:** Leverage cutting-edge automation to deploy and manage scalable, resilient cloud environments.<br/>
 **Seamless CI/CD Integration:** Implement continuous integration and delivery pipelines to speed up releases and reduce downtime.<br/>
@@ -182,11 +182,11 @@ icon:
 ---
 
 <small>
-Integrate reliable and secure payment gateways to streamline transactions.
+Integrate reliable and secure payment gateways to streamline transactions and boost revenue.
 
-**PCI Compliance:** Ensures adherence to industry standards for secure processing of payment data.<br/>
-**Multi-Currency Support:** Supports global transactions by accommodating various currencies.<br/>
-**Instant Payment Processing:** Enables rapid transaction handling for a seamless checkout experience.
+**PCI Compliance:** Ensures strict adherence to industry standards for secure processing of payment data.<br/>
+**Multi-Currency Support:** Supports global transactions by accommodating various currencies seamlessly.<br/>
+**Instant Payment Processing:** Enables rapid, efficient transaction handling for an exceptionally seamless checkout experience.
 </small>
 
 ---services[12]

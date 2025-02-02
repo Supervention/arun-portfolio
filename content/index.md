@@ -26,10 +26,8 @@ const services = [
   'Cloud Deployment & DevOps Services'
   'AI/ML',
 ]
-if (have_a_project) navigate('/get-in-touch')
+if (have_a_project) navigate('/contact')
 ```
-
-
 
 ---achievements
 - number: 100%

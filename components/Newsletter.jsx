@@ -1,19 +1,29 @@
 import React from 'react'
+import Link from 'next/link'
+import Icon from '@/components/Icon'
 import { useForm } from 'react-hook-form'
 import FormInput from '@/components/FormInput'
-import Icon from '@/components/Icon'
 import Button from '@/components/Button'
 import { IoClose } from 'react-icons/io5'
 
 const IntroMessage = () => (
   <div className="prose dark:prose-invert">
     <h3>
-      <em>Stay Tuned</em>
+      <em>Hire Me</em>
     </h3>
-    <h6>Want to become a Next.js pro?</h6>
-    <small>
+    <h6>Need a custom web application? Reach out now.</h6>
+    {/* <small>
       The best articles, links and news related to web development delivered once a week to your
       inbox.
+    </small> */}
+    <small>
+      <Link href="https://www.upwork.com/freelancers/arundevops" aria-label="Upwork Profile Link">
+        <Icon
+          src="/icons/upwork-1.svg"
+          className="mr-2 inline fill-current align-middle text-omega-500"
+        />
+        Arun Verma
+      </Link>
     </small>
   </div>
 )
@@ -38,7 +48,7 @@ const Badge = () => (
       className="group h-6 text-omega-400 no-underline"
       target="_blank"
       rel="noreferrer"
-      href="https://convertkit.com?lmref=CeGsMw"
+      href="https://example.com"
     >
       <span className="text-xs">BUILT WITH</span>
       <Icon
@@ -90,7 +100,7 @@ const Newsletter = ({ className }) => {
   return (
     <div className={className}>
       <IntroMessage />
-      {isSubmitSuccessful ? (
+      {/* {isSubmitSuccessful ? (
         <SuccessMessage handleReset={reset} />
       ) : (
         <form
@@ -125,8 +135,8 @@ const Newsletter = ({ className }) => {
             Subscribe
           </Button>
         </form>
-      )}
-      <Badge />
+      )} */}
+      {/* <Badge /> */}
     </div>
   )
 }

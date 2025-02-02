@@ -13,12 +13,8 @@ seo:
 <PageTitle>
   ### Get in touch
 
-  ### _Thinking about a new project, a problem to solve? Let's do it!_
+  ### _Thinking about a new project, a problem to solve? Let's connect!_
 </PageTitle>
-
-Connect with me on Upwork
-
-<Sep size="12" />
 
 <small>
   <Icon src="/icons/upwork-1.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> [Arun Verma](https://www.upwork.com/freelancers/arundevops)

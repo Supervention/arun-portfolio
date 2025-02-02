@@ -9,6 +9,7 @@ tags:
   - bootstrap
   - stripe
   - javascript
+  - chatgpt api
 logo:
   src: /icons/krushr-32x32.png
   alt: Company X
@@ -18,14 +19,18 @@ images:
     overlay:
       src: /projects/krushr/features-1-mobile.png
       alt: Home Mobile
-  - src: /projects/krushr/features-2.png
-    alt: Customers Dashboard
-  - src: /projects/krushr/chatgpt-task-generation.png
-    alt: ChatGPT task generation
   - src: /projects/krushr/integrate-with-platforms.png
     alt: Integrity & Import
-  - src: /projects/krushr/all-features.png
-    alt: Krushr all features
+  - src: /projects/krushr/plans.png
+    alt: Subscription Plans           
+  - src: /projects/krushr/chatgpt-assistant.png
+    alt: ChatGPT Assistant
+  - src: /projects/krushr/email-with-chatgpt.png
+    alt: Email with ChatGPT
+  - src: /projects/krushr/tasks.png
+    alt: Tasks List
+  - src: /projects/krushr/task-add.png
+    alt: Add Task
 attributes:
   - label: Project Type
     value: SaaS

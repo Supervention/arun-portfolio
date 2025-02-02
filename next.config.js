@@ -7,6 +7,7 @@ const isProd = process.env.NODE_ENV === 'production';
 module.exports = withBundleAnalyzer({
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
+    unoptimized: true, // Important for `next export`
   },
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'utils'],
@@ -20,4 +21,5 @@ module.exports = withBundleAnalyzer({
   },
   output: 'export',
   assetPrefix: isProd ? '/portfolio/' : '',
+  trailingSlash: true, // Ensures Next.js generates `.html` files
 })

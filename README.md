@@ -7,10 +7,19 @@ npm install
 npm run dev
 ```
 
+Or with `make` (installs dependencies automatically when needed):
+
+```bash
+make          # start the dev server (same as `make dev`)
+make help     # list all targets
+```
+
 ## Build for production
 
 ```bash
 npm run build
+# or
+make build
 ```
 
 ## Firebase deployment

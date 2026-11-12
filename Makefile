@@ -11,12 +11,13 @@ NPM ?= npm
 help: ## Show this help
 	@awk 'BEGIN {FS = ":.*## "} /^[a-zA-Z_-]+:.*## / {printf "  \033[36m%-10s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
-# Re-runs only when dependencies change.
-node_modules: package.json package-lock.json
+install: ## Install npm dependencies (always runs)
 	$(NPM) install
 	@touch node_modules
 
-install: node_modules ## Install npm dependencies
+# Other targets depend on this, so they only install when dependencies change.
+node_modules: package.json package-lock.json
+	@$(MAKE) --no-print-directory install
 
 dev: node_modules ## Start the dev server (default)
 	$(NPM) run dev

@@ -15,11 +15,13 @@ const Paging = ({ totalPages, currentPage, slug, infinite = false }) => {
   })
 
   React.useEffect(() => {
-    router.events.on('routeChangeStart', () => setIsFetching(true))
-    router.events.on('routeChangeComplete', () => setIsFetching(false))
+    const handleStart = () => setIsFetching(true)
+    const handleComplete = () => setIsFetching(false)
+    router.events.on('routeChangeStart', handleStart)
+    router.events.on('routeChangeComplete', handleComplete)
     return () => {
-      router.events.off('routeChangeStart')
-      router.events.off('routeChangeComplete')
+      router.events.off('routeChangeStart', handleStart)
+      router.events.off('routeChangeComplete', handleComplete)
     }
   }, [router.events])
 

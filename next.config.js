@@ -2,8 +2,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-const isProd = process.env.NODE_ENV === 'production';
-
 module.exports = withBundleAnalyzer({
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
@@ -20,6 +18,5 @@ module.exports = withBundleAnalyzer({
     return config
   },
   output: 'export',
-  assetPrefix: isProd ? '/portfolio/' : '',
   trailingSlash: true, // Ensures Next.js generates `.html` files
 })

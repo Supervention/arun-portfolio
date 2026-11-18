@@ -1,8 +1,8 @@
 ---
 layout: Projects
 seo:
-  title: Web Development Projects
-  description: Custom description for this page goes here
+  title: Projects
+  description: Full stack, AI and mobile products built by Arun Verma, from own products like Astrobook, Palmbook and SV Trading to client platforms like Tessera and MantisHub.
 ---
 
 ---projects

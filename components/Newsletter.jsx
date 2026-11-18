@@ -11,18 +11,27 @@ const IntroMessage = () => (
     <h3>
       <em>Hire Me</em>
     </h3>
-    <h6>Need a custom web application? Reach out now.</h6>
+    <h6>Need a web, mobile or AI product built? Reach out now.</h6>
     {/* <small>
       The best articles, links and news related to web development delivered once a week to your
       inbox.
     </small> */}
-    <small>
-      <Link href="https://www.upwork.com/freelancers/arundevops" aria-label="Upwork Profile Link">
+    <small className="mr-6 inline-block">
+      <a href="mailto:arun@supervention.in" aria-label="Email Arun Verma">
+        <Icon
+          src="/icons/email.svg"
+          className="mr-2 inline fill-current align-middle text-omega-500"
+        />
+        arun@supervention.in
+      </a>
+    </small>
+    <small className="inline-block">
+      <Link href="https://www.upwork.com/freelancers/arunvermadev" aria-label="Upwork Profile Link">
         <Icon
           src="/icons/upwork-1.svg"
           className="mr-2 inline fill-current align-middle text-omega-500"
         />
-        Arun Verma
+        Hire me on Upwork
       </Link>
     </small>
   </div>

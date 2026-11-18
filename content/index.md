@@ -1,8 +1,8 @@
 ---
 layout: Home
 seo:
-  title: Full Stack Developer
-  description: Full Stack developer with 7+ Year experience
+  title: AI Product Engineer
+  description: Arun Verma is an AI product engineer and the founder of Supervention. He ships LLM agents, document AI and the full-stack web and mobile apps around them, with 10+ years of experience and a Top Rated Plus record on Upwork.
 ---
 
 
@@ -10,41 +10,46 @@ seo:
 ---main
 images:
   - src: /avatar.png
-    alt: arun verma photo
+    alt: Arun Verma
   - src: /avatar-mobile.png
-    alt: arun verma photo
+    alt: Arun Verma
 ---
 
 # <Typewriter>Arun Verma</Typewriter>
 
-# *Senior Full Stack Developer*
+# *AI Product Engineer*
 
-```js {2-4} showLineNumbers
-const services = [
-  'Website Development'
-  'Mobile App Development'
-  'Cloud Deployment & DevOps Services'
-  'AI/ML',
-]
-if (have_a_project) navigate('/contact')
+I ship LLM agents, document AI and the full-stack apps around them. Founder of [Supervention](https://supervention.in).
+
+```ts {2-5} showLineNumbers
+const stack = {
+  web: ['Next.js', 'React'],
+  api: ['Python', 'Node.js'],
+  ai: ['LLM agents', 'RAG'],
+  cloud: ['AWS', 'Docker'],
+}
+// Have a project?
+navigate('/contact')
 ```
 
 ---achievements
-- number: 100%
-  text: Job Success Rate on Upwork
-- number: 7+
-  text: Years of experience
 - number: 10+
-  text: Programming Languages Mastered  
+  text: Years of experience
 - number: 30+
-  text: Projects Completed
+  text: Projects delivered
+- number: 100%
+  text: Job Success, Top Rated Plus
+- number: 5,300+
+  text: Hours on Upwork
 ---
 
 
 
 ---cta
 ---
-[Get in Touch](https://www.upwork.com/freelancers/arundevops)
+[Get in Touch](/contact)
+
+[Verify on Upwork ↗](https://www.upwork.com/freelancers/arunvermadev)
 
 
 

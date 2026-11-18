@@ -227,9 +227,6 @@ list:
   - name: Freelance (Upwork)
     description: Senior Full Stack Developer
     date: Apr 2023 - 2026
-  - name: Flyingspark Infotech Pvt Ltd
-    description: Senior Full Stack Developer
-    date: Jan 2021 - March 2023
   - name: Scorpio Information Technologies Pvt Ltd
     description: Full Stack Developer
     date: July 2020 - Dec 2020

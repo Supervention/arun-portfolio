@@ -6,7 +6,7 @@ NPM ?= npm
 
 .DEFAULT_GOAL := dev
 
-.PHONY: help install dev run build export start lint deploy clean distclean
+.PHONY: help install dev run build start lint clean distclean
 
 help: ## Show this help
 	@awk 'BEGIN {FS = ":.*## "} /^[a-zA-Z_-]+:.*## / {printf "  \033[36m%-10s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
@@ -27,20 +27,14 @@ run: dev ## Alias for dev
 build: node_modules ## Production build
 	$(NPM) run build
 
-export: build ## Build and export the static site to out/
-	$(NPM) run export
-
 start: build ## Serve the production build
 	$(NPM) run start
 
 lint: node_modules ## Run ESLint
 	$(NPM) run lint
 
-deploy: export ## Build, export and deploy to Firebase Hosting
-	firebase deploy
-
-clean: ## Remove build output (.next, out)
-	rm -rf .next out
+clean: ## Remove build output (.next)
+	rm -rf .next
 
 distclean: clean ## Also remove node_modules
 	rm -rf node_modules

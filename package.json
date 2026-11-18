@@ -11,11 +11,11 @@
   },
   "engineStrict": true,
   "scripts": {
-    "dev": "next dev --webpack",
+    "dev": "next dev",
     "export": "next export",
     "start": "next start",
     "lint": "eslint --ext .js,.jsx pages components lib layouts utils",
-    "build": "next build --webpack",
+    "build": "next build",
     "postbuild": "next-sitemap"
   },
   "dependencies": {

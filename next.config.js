@@ -7,12 +7,13 @@ module.exports = withBundleAnalyzer({
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
     unoptimized: true,
   },
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ['@svgr/webpack'],
-    })
-    return config
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
   },
   trailingSlash: true,
   // Next 16.4 writes an AGENTS.md into the repo on `next dev`; opt out

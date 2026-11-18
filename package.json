@@ -7,7 +7,7 @@
     "url": "https://github.com/ElegantStack/edgefolio.git"
   },
   "engines": {
-    "node": ">=14.0"
+    "node": "24.x"
   },
   "engineStrict": true,
   "scripts": {

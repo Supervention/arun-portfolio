@@ -2,6 +2,9 @@
 
 ## Getting started
 
+Requires Node.js 26 (see `.nvmrc`; `nvm use` picks it up). Vercel reads the same
+version from `engines` in `package.json`.
+
 ```bash
 npm install
 npm run dev

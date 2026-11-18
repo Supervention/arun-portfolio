@@ -5,7 +5,7 @@ import ContentRenderer from '@/components/ContentRenderer'
 const Layout = ({ projects }) => {
   return (
     <div className="mx-auto p-4 md:p-6 lg:p-12">
-      <div className="prose prose-headings:mb-4 dark:prose-invert">
+      <div className="prose dark:prose-invert prose-headings:mb-4">
         <ContentRenderer source={projects} />
         <div className="mt-4 grid gap-4 md:mt-4 md:gap-6">
           {projects?.collection?.records?.map((item, i) => (

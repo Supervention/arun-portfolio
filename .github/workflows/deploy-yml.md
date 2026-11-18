@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18  # Change to the Node.js version you use
+          node-version-file: .nvmrc
 
       - name: Install dependencies
         run: npm install

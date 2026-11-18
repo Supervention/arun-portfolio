@@ -5,18 +5,17 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
-    unoptimized: true, // Important for `next export`
+    unoptimized: true,
   },
-  eslint: {
-    dirs: ['pages', 'components', 'lib', 'layouts', 'utils'],
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
   },
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ['@svgr/webpack'],
-    })
-    return config
-  },
-  output: 'export',
-  trailingSlash: true, // Ensures Next.js generates `.html` files
+  trailingSlash: true,
+  // Next 16.4 writes an AGENTS.md into the repo on `next dev`; opt out
+  agentRules: false,
 })

@@ -11,7 +11,12 @@ class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-          <link rel="alternate" type="application/rss+xml" href="/feed/blog/feed.xml" />
+          <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="Arun Verma: projects"
+            href="/feed/projects/feed.xml"
+          />
         </Head>
         <body className="scrollbar-thin scrollbar-thumb-omega-500 hover:scrollbar-thumb-omega-600">
           <Main />

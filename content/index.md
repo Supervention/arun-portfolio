@@ -1,8 +1,8 @@
 ---
 layout: Home
 seo:
-  title: Senior Full Stack Developer
-  description: Arun Verma is a senior full stack developer and the founder of Supervention, building web, mobile and AI products with Next.js, React, Python, Django, Node.js and AWS.
+  title: AI Product Engineer
+  description: Arun Verma is an AI product engineer and the founder of Supervention. He ships LLM agents, document AI and the full-stack web and mobile apps around them, with 10+ years of experience and a Top Rated Plus record on Upwork.
 ---
 
 
@@ -17,9 +17,9 @@ images:
 
 # <Typewriter>Arun Verma</Typewriter>
 
-# *Senior Full Stack Developer*
+# *AI Product Engineer*
 
-Founder of [Supervention](https://supervention.in). I build web, mobile and AI products end to end.
+I ship LLM agents, document AI and the full-stack apps around them. Founder of [Supervention](https://supervention.in).
 
 ```ts {2-5} showLineNumbers
 const stack = {
@@ -48,6 +48,8 @@ navigate('/contact')
 ---cta
 ---
 [Get in Touch](/contact)
+
+[Verify on Upwork ↗](https://www.upwork.com/freelancers/arunvermadev)
 
 
 

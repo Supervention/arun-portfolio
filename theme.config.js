@@ -104,7 +104,7 @@ export const mdxConfig = {
   publicDir: 'public',
   pagesDir: 'content',
   fileExt: '.md',
-  collections: ['/blog', '/projects'],
+  collections: ['/projects'],
   remarkPlugins: [],
   rehypePlugins: [],
 }
@@ -118,10 +118,10 @@ export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   authorName: 'Arun Verma',
   siteName: 'Arun Verma',
-  defaultTitle: 'Arun Verma | Senior Full Stack Developer',
+  defaultTitle: 'Arun Verma | AI Product Engineer',
   titleTemplate: 'Arun Verma | %s',
   description:
-    'Senior full stack developer and founder of Supervention, building web, mobile and AI products with Next.js, React, Python, Django, Node.js and AWS.',
+    'AI product engineer and founder of Supervention. I ship LLM agents, document AI and the full-stack web and mobile apps around them.',
   email: 'arun@supervention.in',
   locale: 'en_US',
   twitter: {

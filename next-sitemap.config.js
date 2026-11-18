@@ -9,5 +9,6 @@ require('@next/env').loadEnvConfig(process.cwd())
 module.exports = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   generateRobotsTxt: true,
+  exclude: ['/404', '/not-found', '/not-found/*'],
   // ...other options
 }

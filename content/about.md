@@ -2,7 +2,7 @@
 layout: About
 seo:
   title: About Me
-  description: Arun Verma is a senior full stack developer with 10+ years of experience and the founder of Supervention, working across Next.js, React, Python, Django, Node.js, AI agents and AWS.
+  description: Arun Verma is an AI product engineer and senior full stack developer with 10+ years of experience, and the founder of Supervention, working across Next.js, React, Python, Django, Node.js, AI agents and AWS.
 ---
 
 ---personal_info
@@ -10,7 +10,7 @@ seo:
 
 ##### About me
 
-I'm a senior full stack developer with 10+ years of experience and the founder of Supervention Private Limited. I design, build and run complete products: Next.js, React and Vue front ends, Python (Django, FastAPI, Flask) and Node.js back ends, native iOS and Android apps, and the cloud they run on.
+I'm an AI product engineer and senior full stack developer with 10+ years of experience, and the founder of Supervention Private Limited. I design, build and run complete products: Next.js, React and Vue front ends, Python (Django, FastAPI, Flask) and Node.js back ends, native iOS and Android apps, and the cloud they run on.
 
 Most of my recent work involves AI: LangGraph agents, search over company documents, document extraction with local language models, and computer vision models inside mobile apps. I ship with Docker, GitHub Actions and AWS, and I back every release with automated tests.
 

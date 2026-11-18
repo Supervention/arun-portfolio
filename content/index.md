@@ -1,8 +1,8 @@
 ---
 layout: Home
 seo:
-  title: Full Stack Developer
-  description: Full Stack developer with 7+ Year experience
+  title: Senior Full Stack Developer
+  description: Arun Verma is a senior full stack developer and the founder of Supervention, building web, mobile and AI products with Next.js, React, Python, Django, Node.js and AWS.
 ---
 
 
@@ -10,41 +10,44 @@ seo:
 ---main
 images:
   - src: /avatar.png
-    alt: arun verma photo
+    alt: Arun Verma
   - src: /avatar-mobile.png
-    alt: arun verma photo
+    alt: Arun Verma
 ---
 
 # <Typewriter>Arun Verma</Typewriter>
 
 # *Senior Full Stack Developer*
 
-```js {2-4} showLineNumbers
-const services = [
-  'Website Development'
-  'Mobile App Development'
-  'Cloud Deployment & DevOps Services'
-  'AI/ML',
-]
-if (have_a_project) navigate('/contact')
+Founder of [Supervention](https://supervention.in). I build web, mobile and AI products end to end.
+
+```ts {2-5} showLineNumbers
+const stack = {
+  web: ['Next.js', 'React'],
+  api: ['Python', 'Node.js'],
+  ai: ['LLM agents', 'RAG'],
+  cloud: ['AWS', 'Docker'],
+}
+// Have a project?
+navigate('/contact')
 ```
 
 ---achievements
-- number: 100%
-  text: Job Success Rate on Upwork
-- number: 7+
+- number: 9+
   text: Years of experience
-- number: 10+
-  text: Programming Languages Mastered  
 - number: 30+
-  text: Projects Completed
+  text: Projects delivered
+- number: 100%
+  text: Job Success Score on Upwork
+- number: 5
+  text: Own products in development
 ---
 
 
 
 ---cta
 ---
-[Get in Touch](https://www.upwork.com/freelancers/arundevops)
+[Get in Touch](/contact)
 
 
 

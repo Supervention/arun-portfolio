@@ -2,7 +2,7 @@
 layout: Contact
 seo:
   title: Contact Me
-  description: Custom description for this page goes here
+  description: Hire Arun Verma for full stack, AI, mobile and cloud work. Reach out by email or on Upwork.
 ---
 
 
@@ -17,5 +17,13 @@ seo:
 </PageTitle>
 
 <small>
-  <Icon src="/icons/upwork-1.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> [Arun Verma](https://www.upwork.com/freelancers/arundevops)
+  <Icon src="/icons/email.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> [arun@supervention.in](mailto:arun@supervention.in)
+</small>
+
+<small>
+  <Icon src="/icons/upwork-1.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> [Hire me on Upwork](https://www.upwork.com/freelancers/arundevops)
+</small>
+
+<small>
+  <Icon src="/icons/globe.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> [supervention.in](https://supervention.in)
 </small>

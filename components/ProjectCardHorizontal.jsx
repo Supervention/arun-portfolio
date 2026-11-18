@@ -59,7 +59,7 @@ const ProjectCardHorizontal = ({
         )}
       </Link>
     )}
-    <div className="p-4 md:p-10 md:pl-0">
+    <div className={classNames('p-4 md:p-10', images ? 'md:pl-0' : 'md:col-span-2')}>
       {/* {logo?.src ? (
         <div className="h-10">
           <Icon {...logo} className="h-full w-36 fill-current text-omega-400" />

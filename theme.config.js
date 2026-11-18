@@ -6,7 +6,8 @@
  * Icons from react-icons: https://react-icons.github.io/react-icons
  */
 
-import { IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import { IoMailOutline, IoGlobeOutline } from 'react-icons/io5'
+import { SiUpwork } from 'react-icons/si'
 import { TfiHome, TfiPencilAlt } from 'react-icons/tfi'
 import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
 import { IoMdContacts } from 'react-icons/io'
@@ -55,19 +56,19 @@ export const menu = [
 
 export const social = [
   {
-    name: 'Twitter',
-    url: 'https://www.twitter.com/',
-    Icon: IoLogoTwitter,
+    name: 'Email',
+    url: 'mailto:arun@supervention.in',
+    Icon: IoMailOutline,
   },
   {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/',
-    Icon: IoLogoInstagram,
+    name: 'Upwork',
+    url: 'https://www.upwork.com/freelancers/arundevops',
+    Icon: SiUpwork,
   },
   {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/',
-    Icon: IoLogoLinkedin,
+    name: 'Supervention',
+    url: 'https://supervention.in',
+    Icon: IoGlobeOutline,
   },
 ]
 
@@ -117,15 +118,13 @@ export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   authorName: 'Arun Verma',
   siteName: 'Arun Verma',
-  defaultTitle: 'Arun Verma Personal Details',
+  defaultTitle: 'Arun Verma | Senior Full Stack Developer',
   titleTemplate: 'Arun Verma | %s',
   description:
-    'Senior Full Stack Developer, passionate about building web and mobile applications.',
-  email: 'arundevops47@gmail.com',
+    'Senior full stack developer and founder of Supervention, building web, mobile and AI products with Next.js, React, Python, Django, Node.js and AWS.',
+  email: 'arun@supervention.in',
   locale: 'en_US',
   twitter: {
-    handle: '@handle',
-    site: '@site',
     cardType: 'summary_large_image',
   },
 }

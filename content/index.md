@@ -21,12 +21,14 @@ images:
 
 I ship LLM agents, document AI and the full-stack apps around them. Founder of [Supervention](https://supervention.in).
 
-```ts {2-5} showLineNumbers
+```ts {2-7} showLineNumbers
 const stack = {
-  web: ['Next.js', 'React'],
-  api: ['Python', 'Node.js'],
-  ai: ['LLM agents', 'RAG'],
-  cloud: ['AWS', 'Docker'],
+  web: ['Next.js', 'React', 'TypeScript'],
+  api: ['Python', 'Django', 'Node.js'],
+  ai: ['LLM agents', 'RAG', 'LangGraph'],
+  mobile: ['Swift', 'Flutter'],
+  data: ['PostgreSQL', 'Redis'],
+  cloud: ['AWS', 'Docker', 'Kubernetes'],
 }
 // Have a project?
 navigate('/contact')

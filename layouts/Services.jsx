@@ -6,7 +6,7 @@ import Icon from '@/components/Icon'
 const Services = ({ main = {}, services = [], service = {} }) => {
   return (
     <div className="mx-auto p-4 md:p-6 lg:p-12">
-      <div className="prose prose-headings:mb-4 dark:prose-invert">
+      <div className="prose dark:prose-invert prose-headings:mb-4">
         <ContentRenderer source={service} />
         <div className="mt-4 grid gap-4 md:grid-cols-3 md:gap-12">
           {services?.map((item, i) => (

@@ -54,10 +54,10 @@ const Skill = ({ title, icon, level }) => (
 
 const SkillSet = ({ title, list }) => (
   <div className="bg-gradient-omega-900 p-6 md:px-12 md:py-8">
-    <p className="col-span-3 mt-0 mb-6 self-center border-l-2 border-alpha pl-3 text-white">
+    <p className="col-span-3 mb-6 mt-0 self-center border-l-2 border-alpha pl-3 text-white">
       {title}
     </p>
-    <div className="grid grid-cols-1 gap-y-3 gap-x-8 [--tw-fluid-col-min:12rem] md:grid-cols-3">
+    <div className="grid grid-cols-1 gap-x-8 gap-y-3 [--tw-fluid-col-min:12rem] md:grid-cols-3">
       {list?.map((props, j) => (
         <Reveal key={j} animation="fade-in" delay={j * 200}>
           <Skill {...props} />

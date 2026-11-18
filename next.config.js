@@ -5,10 +5,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
-    unoptimized: true, // Important for `next export`
-  },
-  eslint: {
-    dirs: ['pages', 'components', 'lib', 'layouts', 'utils'],
+    unoptimized: true,
   },
   webpack(config) {
     config.module.rules.push({
@@ -17,6 +14,7 @@ module.exports = withBundleAnalyzer({
     })
     return config
   },
-  output: 'export',
-  trailingSlash: true, // Ensures Next.js generates `.html` files
+  trailingSlash: true,
+  // Next 16.4 writes an AGENTS.md into the repo on `next dev`; opt out
+  agentRules: false,
 })

@@ -21,7 +21,7 @@ seo:
 </small>
 
 <small>
-  <Icon src="/icons/upwork-1.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> [Hire me on Upwork](https://www.upwork.com/freelancers/arundevops)
+  <Icon src="/icons/upwork-1.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> [Hire me on Upwork](https://www.upwork.com/freelancers/arunvermadev)
 </small>
 
 <small>

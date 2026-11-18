@@ -62,7 +62,7 @@ export const social = [
   },
   {
     name: 'Upwork',
-    url: 'https://www.upwork.com/freelancers/arundevops',
+    url: 'https://www.upwork.com/freelancers/arunvermadev',
     Icon: SiUpwork,
   },
   {

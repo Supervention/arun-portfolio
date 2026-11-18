@@ -33,14 +33,14 @@ navigate('/contact')
 ```
 
 ---achievements
-- number: 9+
+- number: 10+
   text: Years of experience
 - number: 30+
   text: Projects delivered
 - number: 100%
-  text: Job Success Score on Upwork
-- number: 5
-  text: Own products in development
+  text: Job Success, Top Rated Plus
+- number: 5,300+
+  text: Hours on Upwork
 ---
 
 

@@ -26,7 +26,7 @@ const IntroMessage = () => (
       </a>
     </small>
     <small className="inline-block">
-      <Link href="https://www.upwork.com/freelancers/arundevops" aria-label="Upwork Profile Link">
+      <Link href="https://www.upwork.com/freelancers/arunvermadev" aria-label="Upwork Profile Link">
         <Icon
           src="/icons/upwork-1.svg"
           className="mr-2 inline fill-current align-middle text-omega-500"

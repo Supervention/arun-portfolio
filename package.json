@@ -12,7 +12,6 @@
   "engineStrict": true,
   "scripts": {
     "dev": "next dev",
-    "export": "next export",
     "start": "next start",
     "lint": "eslint --ext .js,.jsx pages components lib layouts utils",
     "build": "next build",

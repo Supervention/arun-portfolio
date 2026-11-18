@@ -25,27 +25,7 @@ npm run build
 make build
 ```
 
-## Firebase deployment
+## Deployment
 
-```bash
-npm install -g firebase-tools
-firebase login
-firebase init
-```
-
-Follow these steps:
-- Select "Hosting" (use spacebar to select).
-- Choose "Use an existing project" or create a new Firebase project.
-- Set the public directory to out/ (since next export generates static files in out).
-- Select "No" for single-page app (since it's a static site).
-- Skip automatic deploy (optional).
-
-```bash
-npm run build && npm run export
-firebase deploy
-```
-
-```bash
-# To logout
-firebase logout
-```
+Deployed on Vercel from `main` as a Next.js project, with no extra build settings.
+See `.env.example` for the environment variables the contact form and newsletter need.
